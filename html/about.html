@@ -32,45 +32,79 @@
 </head>
 <body>
   <!--header section start -->
-    <div class="header_section header_bg">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="logo"><a href="index.html"><img src=".\images\homeicon.png"></a></div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="team.html">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-              </li>
+  <nav>
+    <div class="logo"><a href="index.html"><img src=".\images\logo.png"></a></div>
+
+    <label for="drop" class="toggle">Menu</label>
+    <input type="checkbox" id="drop" />
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="applynow.html">Apply Now</a></li>
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-1" class="toggle">Mortgages ></label>
+                <a href="services.html">Mortgages</a>
+                <input type="checkbox" id="drop-1"/>
+                <ul>
+                    <li><a href="#">Why you need a Mortgage Agent</a></li>
+                    <li><a href="#">Purchasing a Home</a></li>
+                    <li><a href="#">Switching your Mortgage</a></li>
+                    <li><a href="#">Refinancing your Home</a></li>
+                    <li><a href="#">Renewing your Mortgage</a></li>
+                </ul> 
+            </li>
+            <li>
+            <!-- First Tier Drop Down -->
+            <label for="drop-2" class="toggle">Calculator > </label>
+            <a href="Calculator.html">Calculator</a>
+            <input type="checkbox" id="drop-2"/>
+            <ul>
+                <li><a href="Calculator.html">Mortgage Calculator</a></li>
+                <li><a href="Calculator2.html">Affordability Calculator</a></li>
+                <li>
             </ul>
-          </div>
-        </nav>
-    </div>
-    <!--header section end -->
+            </li>
+            <li><a href="#">Rates</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!--TODO MOVE CENTER PICTURE TO OTHER SIDE -->
     <!--about section start -->
+    <!--TODO CHANGE IMG-1 IMAGES -->
     <div class="services_section layout_padding">
       <div class="container">
         <div class="row">
           <div class="col-md-8">
-            <h1 class="services_taital">WELCOME TO FINAnCIAL SERVICES</h1>
-            <p class="services_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it </p>
-            <div class="moremore_bt"><a href="#">Read More </a></div>
+            <h1 class="services_taital">About Dora<Main></Main></h1>
+            <div class="moremore_bt"><a href="applynow.html">Apply Now </a></div>
+            <p class="services_text">Dora is a seasoned professional in the mortgage industry with 38 years of experience. She joined The Mortgage Professionals in 2006 as a Licensed Mortgage Agent and has previously worked at a major bank and in the Credit Union system since 1978. Dora is an Accredited Mortgage Professional and is dedicated to providing her clients with honest, friendly, and knowledgeable mortgage advice. </p>
+            <p class="services_text">Buying a home is one of the most important financial decisions your will make, so using a professional in the Mortgage Industry is in your best interest. As Dora works for you, she will work hard to find the best products, mortgage services to best suit your individual needs. </p>
+            <p class="services_text">Whether a first-time buyer, a buyer of a cottage, rental, or second home, and most of all renewing/refinancing your present mortgage, she
+              will put her expertise to work for you. The mortgage process is complicated – please feel free to call/email/text 24/7, to arrange an appointment to discuss your options.</p>
           </div>
           <div class="col-md-4">
-            <div><img src="images/img-1.png" class="image_1"></div>
+            <div><img src="images\img-1dora.png" class="image_1"></div>
+          </div>
+
+          <div class="col-md-8">
+            <h1 class="services_cassie">About Cassie<Main></Main></h1>
+            <p class="services_cass">Dora is a seasoned professional in the mortgage industry with 38 years of experience. She joined The Mortgage Professionals in 2006 as a Licensed Mortgage Agent and has previously worked at a major bank and in the Credit Union system since 1978. Dora is an Accredited Mortgage Professional and is dedicated to providing her clients with honest, friendly, and knowledgeable mortgage advice. </p>
+          </div>
+          <div class="col-md-4">
+            <div><img src="images\img-1cass.png" class="image_cass"></div>
+          </div>
+          <div class="col-md-8">
+            <h1 class="services_taital">About the Mortgage Professionals<Main></Main></h1>
+            <div class="moremore_bt"><a href="https://mortgageprokingston.com/">Read More </a></div>
+            <p class="services_text">The Mortgage Professionals began in 1989 in the founder’s garage. Locally owned and operated for almost thirty years, the company has grown to 30+ staff across 5 offices from Kingston to Gananoque.</p>
+
+            <p class="services_text">The Mortgage Professionals are Eastern Ontario’s largest mortgage brokerage, processing over $300m of mortgage volume annually. We are also Kingston’s most recognized mortgage brokerage, having been nominated several times nationally as Mortgage Brokerage of the Year, as Employer of Choice and having won National Mortgage Brokerage of the Year. Our Brokers have been recognized nationally as Top 20 Mortgage Brokers in Canada, locally as Kingston This Week’s Favourite Mortgage Brokers and even in the Canadian Mortgage Hall of Fame.</p>
+            
+          </div>
+          <div class="col-md-4">
+            <div><img src="images\img-1mort.png" class="image_1"></div>
           </div>
         </div>
       </div>
@@ -81,27 +115,27 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-sm-6">
-            <h4 class="about_text">About Financial</h4>
-            <div class="location_text"><img src="images/map-icon.png"><span class="padding_left_15">Locations</span></div>
-            <div class="location_text"><img src="images/call-icon.png"><span class="padding_left_15">+01 9876543210</span></div>
-            <div class="location_text"><img src="images/mail-icon.png"><span class="padding_left_15">demo@gmail.com</span></div>
+            <h4 class="about_text">About Main Mortgage</h4>
+            <div class="location_text"><img src="images/map-icon.png"><a href="https://goo.gl/maps/8s245RT78Vt5kdbK6" span class="padding_left_15">Location</span></div></a>
+            <div class="location_text"><img src="images/call-icon.png"><a href="tel:6133821216" span class="padding_left_15">+1 613-382-1216</span></div></a>
+            <div class="location_text"><img src="images/mail-icon.png"><a href="mailto:dora@mtgprof.com" span class="padding_left_15">dora@mtgprof.com</span></div></a>
           </div>
           <div class="col-lg-3 col-sm-6">
-            <h4 class="about_text">About Financial</h4>
-            <p class="dolor_text">ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            <h4 class="about_text">About Dora</h4>
+            <p class="dolor_text">Dora is a seasoned professional in the mortgage industry with 38 years of experience. Dora is an Accredited Mortgage Professional and is dedicated to providing her clients with honest, friendly, and knowledgeable mortgage advice.</p>
           </div>
           <div class="col-lg-3 col-sm-6">
             <h4 class="about_text">Instagram</h4>
             <div class="footer_images">
               <div class="footer_images_left">
-                <div class="image_12"><img src="images/img-12.png"></div>
-                <div class="image_12"><img src="images/img-12.png"></div>
-                <div class="image_12"><img src="images/img-12.png"></div>
+                <div class="image_12"><img src="images/img_121.png"><a href="https://www.instagram.com/mainmortgage/" a></a></div>
+                <div class="image_12"><img src="images/img_122.png"><a href="https://www.instagram.com/mainmortgage/" a></a></div>
+                <div class="image_12"><img src="images/img_123.png"><a href="https://www.instagram.com/mainmortgage/" a></a></div>
               </div>
               <div class="footer_images_right">
-                <div class="image_12"><img src="images/img-12.png"></div>
-                <div class="image_12"><img src="images/img-12.png"></div>
-                <div class="image_12"><img src="images/img-12.png"></div>
+                <div class="image_12"><img src="images/img_124.png"><a href="https://www.instagram.com/mainmortgage/" a></div>
+                <div class="image_12"><img src="images/img_125.png"><a href="https://www.instagram.com/mainmortgage/" a></a></div>
+                <div class="image_12"><img src="images/img_126.png"><a href="https://www.instagram.com/mainmortgage/" a></a></div>
               </div>
             </div>
           </div>
@@ -111,17 +145,17 @@
             <div class="subscribe_bt"><a href="#">Subscribe</a></div>
             <div class="footer_social_icon">
               <ul>
-                <li><a href="#"><img src="images/fb-icon1.png"></a></li>
-                 <li><a href="#"><img src="images/twitter-icon1.png"></a></li>
-                <li><a href="#"><img src="images/linkedin-icon1.png"></a></li>
-                <li><a href="#"><img src="images/youtub-icon1.png"></a></li>
+                <li><a href="https://www.facebook.com/MainMortgage"><img src="images/fb-icon1.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/dora-main-a66b3a28/"><img src="images/linkedin-icon1.png"></a></li>
+                <li><a href="https://www.instagram.com/mainmortgage/"><img src="images/youtub-icon1.png"></a></li>
               </ul>
             </div>
           </div>
         </div>
         <!-- copyright section start -->
         <div class="copyright_section">
-          <div class="copyright_text">Copyright 2019 All Right Reserved By <a href="https://html.design">Free html  Templates</a></div>
+          <div class="copyright_text">Copyright 2022 VERICO The Mortgage Professionals License 10280 All Rights Reserved.
+            *some restrictions may apply </div>
         </div>
         <!-- copyright section end -->
       </div>

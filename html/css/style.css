@@ -157,6 +157,7 @@ img {
      height: auto;
 }
 
+
  :focus {
      outline: 0;
 }
@@ -257,8 +258,19 @@ button {
     color: #2e2d2e;
     text-transform: uppercase;
 }
+.navbar a {
+    float: left;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ 
+
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #1b5a8d;
+    color: #7996a3;
 }
 .banner_main{
     width: 100%;
@@ -297,7 +309,7 @@ button {
     float: left;
     font-size: 16px;
     color: #000;
-    border: 2px solid #ff5a58;
+    border: 2px solid #e79260;
     text-align: center;
     padding: 10px 0px;
     border-radius: 40px;
@@ -306,8 +318,21 @@ button {
 }
 .more_bt a:hover {
     color: #000;
-    border: 2px solid #ff5a58;
+    border: 2px solid #e79260;
 }
+
+.layout_calculator {
+        margin: auto !important;
+        padding-top: 90px;
+        padding-bottom: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+        display: block;
+        display: inline-block;
+    
+}
+
 .contact_bt {
     width: 170px;
     float: left;
@@ -318,7 +343,7 @@ button {
     float: left;
     font-size: 16px;
     color: #181818;
-    border: 2px solid #4aafff;
+    border: 2px solid #7996a3;
     text-align: center;
     padding: 10px 0px;
     border-radius: 40px;
@@ -327,7 +352,7 @@ button {
 }
 .contact_bt a:hover {
     color: #181818;
-    border: 2px solid #ff5a58;
+    border: 2px solid #e79260;
 }
 .services_section {
     width: 100%;
@@ -350,7 +375,7 @@ button {
 }
 .services_taital::after {
     content: '';
-    background-color: #ff5a58;
+    background-color: #e79260;
     position: absolute;
     width: 60px;
     text-align: center;
@@ -368,12 +393,59 @@ button {
     float: left;
     font-size: 16px;
     color: #060606;
+    margin-right: 0px;
+}
+.services_cass {
+    width: 90%;
+    float: right;
+    font-size: 16px;
+    color: #060606;
+    margin-right: 0px;
+    margin-bottom: 40px;
+}
+.services_cassie {
+    width: 100%;
+    float: right;
+    margin-left: 80%;
+    margin-right: 0px;
+    margin-top: 50px;
+    font-size: 34px;
+    color: #282c47;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.services_cassie::after {
+    content: '';
+    background-color: #e79260;
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    right: initial;
+    top: 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 7px;
+    left: 0;
+    border-radius: 100px;
+}
+.image_cass{
+    width: 100%;
+    float: left;
     margin-left: 0px;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .moremore_bt {
     width: 170px;
-    float: left;
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     z-index: 2;
 }
@@ -382,19 +454,42 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #4aafff;
-    border: 2px solid #88c6f8;
+    color: #7996a3;
+    border: 2px solid #7996a3;
     text-align: center;
     padding: 10px 0px;
     border-radius: 40px;
 }
 .moremore_bt a:hover {
     color: #181818;
-    border: 2px solid #ff5a58;
+    border: 2px solid #e79260;
+}
+.calc_bt {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.calc_bt a {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #7996a3;
+    border: 2px solid #88c6f8;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 40px;
+}
+.calc_bt a:hover {
+    color: #181818;
+    border: 2px solid #e79260;
 }
 .image_1{
     width: 100%;
     float: left;
+    margin-top: 80px;
 }
 
 .what_we_do_section{
@@ -413,7 +508,7 @@ button {
 }
 .what_taital::after {
     content: '';
-    background-color: #ff5a58;
+    background-color: #e79260;
     position: absolute;
     width: 60px;
     text-align: center;
@@ -444,15 +539,15 @@ button {
 .box_main {
     width: 100%;
     float: left;
-    background-color: #1b5a8d;
+    background-color: #7996a3;
     border-radius: 10px;
     padding: 30px 0px;
 }
 .box_main:hover{
-    background-color: #ff5a58;
+    background-color: #e5b36a;
 }
 .box_main.active {
-    background-color: #ff5a58;
+    background-color: #e79260;
 }
 .icon_1 {
     width: 100%;
@@ -602,7 +697,7 @@ button {
 .project_section_2 {
     width: 100%;
     float: left;
-    background-color: #ff5a58;
+    background-color: #e79260;
     height: auto;
     padding: 50px 0px 40px 0px;
 }
@@ -658,7 +753,7 @@ button {
     float: left;
     font-size: 18px;
     text-align: center;
-    color: #ff5a58;
+    color: #e79260;
     margin: 0px;
     font-weight: 450;
 }
@@ -710,12 +805,12 @@ button {
     padding-top: 30px;
 }
 .carousel-indicators .active {
-    background-color: #1b5a8d;
+    background-color: #7996a3;
 }
 .carousel-indicators li {
     width: 60px;
     height: 15px;
-    background-color: #ff5a58;
+    background-color: #e79260;
     border-radius: 4px;
     bottom: -80px;
 }
@@ -778,7 +873,7 @@ button {
     font-size: 20px;
     color: #ffffff;
     text-align: center;
-    background-color: #ff5a58;
+    background-color: #e79260;
     padding: 10px 0px;
     text-transform: uppercase;
     border-radius: 30px;
@@ -787,7 +882,7 @@ button {
 .footer_section{
     width: 100%;
     float: left;
-    background-color: #121212;
+    background-color: #7996a3;
     height: auto;
 }
 .about_text{
@@ -795,6 +890,7 @@ button {
     float: left;
     font-size: 24px;
     color: #fffcf4;
+    text-transform: uppercase;
 }
 .location_text {
     width: 100%;
@@ -805,6 +901,7 @@ button {
 }
 .padding_left_15 {
     padding-left: 15px;
+    color: white;
 }
 .dolor_text{
     width: 100%;
@@ -834,7 +931,7 @@ button {
     float: left;
     font-size: 18px;
     color: #ffffff;
-    background-color: #ff5a58;
+    background-color: #e79260;
     height: auto;
     padding: 5px 0px;
     text-align: center;
@@ -891,7 +988,7 @@ button {
     color: #ffffff
 }
 .copyright_text a:hover{
-    color: #ff5a58;
+    color: #e79260;
 }
 .margin_top_90{
   margin-top: 90px;
@@ -929,3 +1026,264 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
+  body {
+	background: #f5f1f1;
+	font-size:22px;
+	line-height: 32px;
+	color: #130a0a;
+	margin: 0;
+	padding: 0;
+	word-wrap:break-word !important;
+	font-family: 'Poppins', sans-serif;
+	}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	color: #FFF;
+}	
+
+h3 {
+	font-size: 30px;
+	line-height: 34px;
+	text-align: center;
+	color: #FFF;
+}
+
+h3 a {
+	color: #FFF;
+}
+
+a {
+	color: #FFF;
+}
+
+h1 {
+	margin-top: 100px;
+	text-align:center;
+	font-size:60px;
+	line-height: 70px;
+	font-family: 'Poppins', 'sans-serif';
+	}
+
+#container {
+	margin: 0 auto;
+	max-width: 890px;
+}
+
+p {
+	text-align: center;
+}
+
+.toggle,
+[id^=drop] {
+	display: none;
+}
+
+/* Giving a background-color to the nav container. */
+nav { 
+	margin:0;
+	padding: 0;
+	background-color: #d1d6d8;
+}
+
+#logo {
+	width: 50%;
+    float: left;
+}
+
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
+
+nav:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+nav ul {
+	float: right;
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+	}
+	
+/* Positioning the navigation items inline */
+nav ul li {
+	margin: 0px;
+	display:inline-block;
+	background-color: #d1d6d8;
+	}
+
+/* Styling the links */
+nav a {
+	display:block;
+	padding:14px 20px;	
+	color:#FFF;
+	font-size:17px;
+	text-decoration:none;
+    text-transform: uppercase;
+}
+
+
+nav ul li ul li:hover { background: #f3eded; }
+
+/* Background color change on Hover */
+nav a:hover { 
+	background-color: #7996a3;
+}
+
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	/* has to be the same number as the "line-height" of "nav a" */
+	top: 60px; 
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	
+ * We move the 2nd and 3rd etc tier dropdowns to the left
+ * by the amount of the width of the first tier.
+*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px;
+	/* has to be the same number as the "width" of "nav ul ul li" */ 
+	left:170px; 
+}
+
+	
+/* Change ' +' in order to change the Dropdown symbol */
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
+
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 768px) {
+
+	#logo {
+		width: 50%;
+    float: left;
+	}
+
+	nav {
+		margin: 0;
+	}
+
+	/* Hide the navigation menu by default */
+	/* Also hide the  */
+	.toggle + a,
+	.menu {
+		display: none;
+	}
+
+	/* Stylinf the toggle lable */
+	.toggle {
+		display: block;
+		background-color: #d1d6d8;
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px;
+		text-decoration:none;
+        text-transform: uppercase;
+		border:none;
+	}
+
+	.toggle:hover {
+		background-color: #7996a3;
+	}
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+	}
+
+	/* Change menu item's width to 100% */
+	nav ul li {
+		display: block;
+		width: 100%;
+		}
+
+	nav ul ul .toggle,
+	nav ul ul a {
+		padding: 0 40px;
+	}
+
+	nav ul ul ul a {
+		padding: 0 80px;
+	}
+
+	nav a:hover,
+ 	nav ul ul ul a {
+		background-color: #ffffff;
+	}
+  
+	nav ul li ul li .toggle,
+	nav ul ul a,
+  nav ul ul ul a{
+		padding:14px 20px;	
+		color:rgb(22, 21, 21);
+		font-size:17px; 
+	}
+  
+  
+	nav ul li ul li .toggle,
+	nav ul ul a {
+		background-color: #f8f5f5; 
+	}
+
+	/* Hide Dropdowns by Default */
+	nav ul ul {
+		float: none;
+		position:static;
+		color: #ffffff;
+		/* has to be the same number as the "line-height" of "nav a" */
+	}
+		
+	/* Hide menus on hover */
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+		
+	/* Fisrt Tier Dropdown */
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+	}
+
+}
+
+@media all and (max-width : 330px) {
+
+	nav ul li {
+		display:block;
+		width: 94%;
+	}
+
+}
